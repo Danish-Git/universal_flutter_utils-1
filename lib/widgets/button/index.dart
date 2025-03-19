@@ -252,6 +252,7 @@ class UFUButton extends StatelessWidget {
       case UFUButtonRadius.circular:
         return 50;
       case UFUButtonRadius.roundSquare:
+        if(size == UFUButtonSize.size24) return 5;
         return 12;
       default:
         return 12;
